@@ -151,3 +151,8 @@ ratings_comparisons <- map2(x_var, y_var, create_scatter)`
 - Variables are said to have a strong relationship if points are clustered together as opposed to being spread out.
 - Variables are said to have a weak relationship if points are spread out as opposed to being clustered together.
 - Variables are said to have no relationship if it appears the points are arranged in a shapeless cloud.
+
+
+
+Using `aes_string()` allows you to pass vectors of variable names into your function for efficiency.
+`gridExtra` is a package useful for organizing plots created using `ggplot2` in a grid on a single page.
