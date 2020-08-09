@@ -30,21 +30,21 @@ I investigated possible movie rating bias, I learned to represent the same data 
 
 > Creating a histogram:
 
-ggplot(data = reviews, 
+ - `ggplot(data = reviews, 
   aes(x = Rating)) +
-  geom_histogram(bins = 30)
+  geom_histogram(bins = 30)`
 
 > Creating a faceted plot for categories of a variable:
 
-***ggplot(data = reviews, 
+ - `ggplot(data = reviews, 
   aes(x = Rating)) +
   geom_histogram(bins = 30) +
-  facet_wrap(~Rating_Site, nrow= 2)***
+  facet_wrap(~Rating_Site, nrow= 2)`
 
 > Adding color to distinguish between variables:
 
-ggplot(data = reviews, 
+ - `ggplot(data = reviews, 
   aes(x = Rating, fill= Rating_Site)) +
-  geom_histogram(bins = 30)
+  geom_histogram(bins = 30)`
 
 3. Box plots provide an informative summary of the shape, spread, and center of your data.
