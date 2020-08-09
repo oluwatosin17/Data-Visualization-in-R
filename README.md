@@ -16,9 +16,10 @@ I investigated possible movie rating bias, I learned to represent the same data 
 - It may be used for showing a quick summary of your data, such as averages or counts of the number of instances of a value that occur for a given variable.
 - Using stat = "identity" overrides the default behavior of the height of the bars corresponding to the number of values, and instead creates bars equal to the value of the y-variable.
 > Creating a bar chart:
- - ggplot(data = data_frame,
+
+ - `ggplot(data = data_frame,
   aes(x = variable_1, y = variable_2)) + 
-  geom_bar(stat='identity')
+  geom_bar(stat='identity')`
 
 2. **Histograms**
 - Are useful for visualizing distributions of data when you want to know the shape of a distribution (in other words, where most values are clustered).
